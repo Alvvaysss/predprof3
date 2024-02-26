@@ -13,7 +13,7 @@ for j in f:
 origin.close()
 
 otchet = open('otchet.txt', 'w', encoding='UTF-8')
-spisok=[]
+spisok = []
 for x in f:
     if x[1] == 'Аллопуринол':
         spisok.append([x[0], '.'.join(x[2].split('-'))])
